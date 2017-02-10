@@ -1,0 +1,28 @@
+{
+    "name" : "timegryd/opcache-reset-bundle",
+    "description" : "Opcache reset bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "timegryd",
+        "email" : "dev@timegryd.io",
+        "homepage": "https://timegryd.io/"
+    }],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "require-dev": {
+        "symfony/symfony": "^2.3||~3.0",
+        "phpunit/phpunit": "^6.0.0",
+        "mockery/mockery": "^0.9.8",
+        "matthiasnoback/symfony-dependency-injection-test": "^2.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Timegryd\\OpcacheResetBundle\\": "src/"
+        }
+    }
+}

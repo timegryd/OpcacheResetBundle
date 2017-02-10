@@ -1,0 +1,20 @@
+services:
+    timegryd_opcache_reset.guzzle:
+        class: GuzzleHttp\Client
+        public: false
+
+    timegryd_opcache_reset.helper:
+        class: Timegryd\OpcacheResetBundle\Helper\OpcacheResetCommandHelper
+        public: false
+        arguments:
+            - "@kernel"
+
+    timegryd_opcache_reset.command:
+        class: Timegryd\OpcacheResetBundle\Command\OpcacheResetCommand
+        arguments:
+            - "%timegryd_opcache_reset.host%"
+            - "%timegryd_opcache_reset.dir%"
+            - "@timegryd_opcache_reset.helper"
+            - "@timegryd_opcache_reset.guzzle"
+        tags:
+            - { name: console.command }
