@@ -1,5 +1,9 @@
 # OpcacheResetBundle
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/e903c805-7570-4e12-9c67-ca4a04ca4391/mini.png)](https://insight.sensiolabs.com/projects/e903c805-7570-4e12-9c67-ca4a04ca4391)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/timegryd/OpcacheResetBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/timegryd/OpcacheResetBundle/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/timegryd/OpcacheResetBundle/badges/build.png?b=master)](https://scrutinizer-ci.com/g/timegryd/OpcacheResetBundle/build-status/master)
+
 Command line interface to reset opcache
 
 Installation
