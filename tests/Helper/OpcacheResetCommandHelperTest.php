@@ -11,12 +11,12 @@ use Timegryd\OpcacheResetBundle\Helper\OpcacheResetCommandHelper;
 class OpcacheResetCommandHelperTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var \Mockery\MockInterface of KernelInterface
+     * @var KernelInterface
      */
     protected $kernel;
 
     /**
-     * @var \Mockery\MockInterface of OpcacheResetCommandHelper
+     * @var OpcacheResetCommandHelper
      */
     protected $helper;
 
@@ -195,7 +195,7 @@ class OpcacheResetCommandHelperTest extends \PHPUnit\Framework\TestCase
      * @param string $body
      * @param int    $status
      *
-     * @return \Mockery\MockInterface of HttpResponse
+     * @return HttpResponse
      */
     protected function getMockedResponse($body = null, $status = Response::HTTP_OK)
     {
