@@ -1,6 +1,6 @@
 <?php
 
-if (!extension_loaded('opcache')) {
+if (!extension_loaded('Zend OPcache')) {
     $success = true;
     $message = 'Opcache extension not loaded';
 } elseif (opcache_reset()) {
