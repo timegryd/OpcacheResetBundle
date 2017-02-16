@@ -1,7 +1,7 @@
 <?php
 
 if (!extension_loaded('opcache')) {
-    $success = false;
+    $success = true;
     $message = 'Opcache extension not loaded';
 } elseif (opcache_reset()) {
     $success = true;
