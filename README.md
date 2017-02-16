@@ -76,5 +76,9 @@ You can also override configuration :
 $ php bin/console opcache:reset timegryd.io /web-dir
 ```
 
+Thanks
+------
+
+Rework of OpcacheBundle by sixdayz https://github.com/sixdayz/OpcacheBundle
 
 
