@@ -15,7 +15,7 @@
         "guzzlehttp/guzzle": "^6.0"
     },
     "require-dev": {
-        "symfony/symfony": "^2.3||~3.0",
+        "symfony/symfony": "^2.3||~3.4",
         "phpunit/phpunit": "^5.0.0",
         "mockery/mockery": "^0.9.8",
         "matthiasnoback/symfony-dependency-injection-test": "^1.1.0"
